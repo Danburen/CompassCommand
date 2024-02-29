@@ -1,0 +1,35 @@
+# CommandCompass betaV1.0
+# Auther Hachett(Waterwood)
+# mc version:1.20
+
+
+
+# enable the plugin?
+Enable: true
+
+# set the lores,one or more lines will also be accepted
+Lores:
+  - "§4右键点击§e打开主菜单"
+  - ""
+
+DisplayName: "§e主菜单"
+
+# which material they hand can act.
+Material: "COMPASS"
+
+# one of these below must be "true" otherwise the plugin will not be enabled.
+LeftClick: false
+RightClick: true
+
+# when player join will check if they have had the item,if not ，then give them one.
+GivePlayOnJoin: true
+# whether allow play drop the item,if player drop when this set to true ,delete and create a new one to player
+AllowPlayerDrop: false
+
+# command when the item was used
+# just simulating player chatting like("/"+xxx)
+# only one command
+# the command must be registered
+Command: "Menu"
+# message sent to player when item was used.
+CmdMessage: "§e你打开了服务器主菜单"

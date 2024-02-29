@@ -1,0 +1,14 @@
+name: CompassCommand
+version: 1.0
+author: hachett
+description: A plugin enable that item binding command
+main: waterorg.test.compasscommand.CompassCommand
+commands:
+  CompassCommand:
+    aliases:
+      - cpcreload
+    description: CompassCommand main commands
+permissions:
+  CompassCommand.reload:
+    default: op
+    description: to reload the plugin

@@ -1,0 +1,4 @@
+name: CompassCommand
+version: '${version}'
+main: waterorg.test.compasscommand.CompassCommand
+api-version: '1.20'
