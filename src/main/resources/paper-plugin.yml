@@ -1,4 +1,10 @@
 name: CompassCommand
 version: '${version}'
 main: waterorg.test.compasscommand.CompassCommand
-api-version: '1.20'
+api-version: '1.18'
+dependencies:
+  server:
+    PlaceholderAPI:
+      # Load order is relative to the dependency. So here PlaceholderAPI loads before our plugin.
+      load: BEFORE
+      required: false

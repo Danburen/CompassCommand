@@ -1,5 +1,5 @@
 name: CompassCommand
-version: 1.0
+version: 1.2
 author: hachett
 description: A plugin enable that item binding command
 main: waterorg.test.compasscommand.CompassCommand
@@ -12,3 +12,4 @@ permissions:
   CompassCommand.reload:
     default: op
     description: to reload the plugin
+softdepend: [PlaceholderAPI]
